@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, PermissionsAndroid, Linking, TextInput, Alert } from 'react-native';
 import { shareLocation, activateSafetyAlarm } from '../services/emergency'
-import { BarCodeScanner } from 'expo-barcode-scanner';
 
 const emergencyNumbers = [
     {

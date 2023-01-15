@@ -9,10 +9,26 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/vector-icons": "^13.0.0",
+    "@react-navigation/bottom-tabs": "^6.5.3",
+    "@react-navigation/drawer": "^6.5.7",
+    "@react-navigation/stack": "^6.3.11",
     "expo": "~47.0.12",
+    "expo-barcode-scanner": "^12.1.0",
+    "expo-contacts": "^11.0.1",
+    "expo-linking": "^3.3.0",
+    "expo-sms": "^11.0.0",
     "expo-status-bar": "~1.4.2",
     "react": "18.1.0",
-    "react-native": "0.70.5"
+    "react-native": "0.70.5",
+    "react-native-contacts": "^7.0.5",
+    "react-native-phone-call": "^1.2.0",
+    "react-native-phone-number": "^1.0.0",
+    "react-native-sms": "^1.11.0",
+    "react-native-swipeable": "^0.6.0",
+    "react-native-voice": "^0.3.0",
+    "react-navigation": "^4.4.4",
+    "react-navigation-stack": "^2.10.4"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
